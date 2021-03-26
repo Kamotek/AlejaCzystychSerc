@@ -1,0 +1,18 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule strona-glowna index.php
+RewriteRule ksiega-dusz book.php
+RewriteRule o-nas contact.php
+RewriteRule dodaj-wpis entry.php
+RewriteRule dodaj-wpis-o-wydarzeniu entry_event
+RewriteRule dodaj-wpis-o-pogrzebie entry_funeral
+RewriteRule dodaj-wpis-inny entry_other
+RewriteRule dodaj-wpis-o-osobie entry_person
+RewriteRule aktualnosci news.php
+RewriteRule osoba person.php
+RewriteRule spacer-wirtualny walk.php
