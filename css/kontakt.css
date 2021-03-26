@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/ahegao.png");
+
+  /* Set a specific height */
+  height: 350px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kontakt-social
+{
+	font-family: "Monotype Corsiva";
+}
+
+
+p {
+	color: lightgray !important;
+}
